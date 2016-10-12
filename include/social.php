@@ -165,7 +165,10 @@ class social{
 		$query->bindValue(1, $id);
 		$query->execute();
 
-		return $query->fetchAll()[0]['name'];
+		$x = $query->fetchAll();
+		if($x != null){
+			return $x[0]['name'];
+		}
 	}
 
 	public function getAvatar($id){
