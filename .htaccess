@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteBase /social/
+
+RewriteRule ^h\/(.*)$ hashtag.php?tag=$1 [L]
+RewriteRule ^register$ register.php [L]
+RewriteRule ^main$ main.php [L]
+RewriteRule ^out$ out.php [L]
+RewriteRule ^u\/(.*)$ profile.php?user=$1 [L]
+RewriteRule ^search$ search.php [L]
+RewriteRule ^f\/(.*)$ follow.php?user=$1 [L]
+RewriteRule ^uf\/(.*)$ uf.php?user=$1 [L]
+RewriteRule ^edit$ edit.php [L]
+RewriteRule ^rm\/(.*)$ rm.php?post=$1 [L]
+RewriteRule ^l\/(.*)$ like.php?post=$1 [L]
+RewriteRule ^ul\/(.*)$ ul.php?post=$1 [L]
+RewriteRule ^update$ update.php?type=1 [L]
+
+
+
+
+ErrorDocument 404 /Social/error/404.php

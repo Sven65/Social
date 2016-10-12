@@ -1,0 +1,98 @@
+/*
+
+    Copyright Mackan <thormax5@gmail.com>
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+html{
+    overflow-x: hidden;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+
+.bg{
+	background-image: url("../img/light.jpg");
+}
+
+.hidden{
+	display: none;
+}
+
+.user{
+	float: right;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#form{
+	max-width: 50%;
+    margin-left: 25%;
+}
+
+#user{
+	margin-left: 3%;
+    max-width: 13%;
+}
+
+#posts{
+	max-width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: #FDFCFC;
+}
+
+.center{
+    text-align: center;
+}
+
+#users{
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+#settings{
+    max-width: 50%;
+    margin: auto;
+}
+
+.nav-bell{
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-bell.noti{
+    color: #f00;
+}
+
+.notif{
+    padding-top: 5px;
+}
